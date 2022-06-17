@@ -7,4 +7,4 @@ You need to learn C++ basics to understand the code, but if you know c++, you pr
 For more info, visit https://github.com/TheRobotCodingMan/Calcu-basic/issues.
 ## How to compile code?
 Compiling code in local is hard, but can be done. We recommend that you use an online c++ compiler. The link below has the code already and you can copy it:
-http://tpcg.io/_WSUVW7
+http://tpcg.io/_LWH98K

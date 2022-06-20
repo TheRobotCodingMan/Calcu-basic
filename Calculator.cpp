@@ -9,15 +9,15 @@ char division_ope = '/';
 char times_ope = '*';
 bool ope_bool;
 bool nn_bool;
-char diff_ope_true = 'y';
-char yes = 'y';
+char uni_yes = 'y';
+char uni_no = 'n';
 
 void different_operator() {
 	
-	std::cout << "Do you want a different operator connecting the current number to the last current number? If you want, type y, or if not, type any character.\n";
+	std::cout << "Do you want a different operator connecting the current number to the last current number? If you want, type y, if not, type n, or if you want help, type any character besides y & n.\n";
 	std::cin >> diff_ope;
 	
-	if (diff_ope == yes)
+	if (diff_ope == uni_yes)
 	{
 		std::cout << "\nEnter only the given operators - +, -, *, /.\n";
 		std::cin >> new_ope;
@@ -33,9 +33,19 @@ void different_operator() {
 			std::cout << "\n";
 		}
 	}
-	else
+	else if (diff_ope == uni_no)
 	{
 		std::cout << "\n";
+	}
+	else
+	{
+		std::cout << "		     			   Example, n + n1 (+,-,*,/) n2 .\n";
+		std::cout << "												^		 \n";
+		std::cout << "You can choose different operators connecting n1 to n2.\n";
+		std::cout << "          This is the same with your numbers (entries).\n";
+		
+		different_operator();
+		
 	}
 	
 }
@@ -47,7 +57,7 @@ void entries() {
 	std::cout << "\nDo you want to enter another entry? If yes, enter y, if no, enter any character.\n";
 	std::cin >> question;
 	
-	if (question == yes)
+	if (question == uni_yes)
 	{
 		nn_bool = true;
 		std::cout << "Enter next number: \n";

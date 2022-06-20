@@ -1,6 +1,6 @@
 # Calcu-basic [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
 ![Calcu-Basic](https://user-images.githubusercontent.com/87217827/174521506-b8c11442-6ffa-43d5-8c3e-3a1efb2539e2.jpg)
-## Welcome to Calcu-Basic
+## Welcome to Calcu-basic
 `Calcu-basic` is a C++ application that lets you calculate basic arithmetic operations. The purpose of our project is to let people modify our calculator and also make different results. You can copy the code, however you need to see our license first (https://github.com/TheRobotCodingMan/Calcu-basic/blob/main/LICENSE.MD)
 ## Features
 The features of Calcu-Basic is in the following:
